@@ -112,6 +112,7 @@ set tags+=./tags
 
 " configured for taglist plugin
 nnoremap <silent> <F2> :TlistToggle<CR>
+let Tlist_Use_Horiz_Window = 1
 let Tlist_Process_File_Always=1
 let Tlist_Inc_Winwidth = 0
 let Tlist_WinWidth = 28
